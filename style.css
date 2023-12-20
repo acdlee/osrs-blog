@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+}
+
+/* Navigation Style */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    flex-grow: 1;
+    width: 76%;
+    height: 100px;
+    outline: 1px black solid;
+
+    text-align: center;
+}
+
+header > nav, img{
+    flex-grow: 1;
+    width: 12%;
+    height: 100px;
+    outline: 1px solid black;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+    width: fit-content;
+}
+
+ul {
+    outline: 1px solid black;
+    margin: 2px;
+    padding: 4px;
+}
+
+/* Main Style */
+
+main {
+    margin: 0 auto;
+    width: 400px;
+}
+
+p {
+    width: fit-content;
+    font-size: larger;
+    line-height: 40px;
+    text-align: center;
+}
+
+/* section > p {s
+    text-align: center;
+    outline: 1px solid sandybrown;
+} */
